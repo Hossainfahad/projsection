@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #EEE;
+}
+#Works{
+    background: rgb(255, 254, 254);
+    max-width: 80%;
+    margin:40px auto 0 auto;
+}
+#Works .upsec{
+    font-size: 1.6rem;
+}
+#Works .upsec .fas{
+    position: relative;
+    left: 48%;
+    top:50px;
+
+}
+#Works .upsec h4{
+    padding:40px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+.layout-container{
+    width: 100%;
+}
+.project{
+    padding:20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+
+}
+.project img{
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.project img:hover{
+    -webkit-transform:rotate(-10deg);
+            transform:rotate(-10deg)
+}
+.project div:nth-child(3){
+    border:2px solid rgb(84, 124, 111);
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left:25px;
+    right:25px;
+    cursor: pointer;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: .4s;
+            transition-duration: .4s;
+   
+}
+.project div:nth-child(3):hover{
+     background: aquamarine;
+     border-color: aquamarine;
+     border-radius: 15px;
+}
+.project div:nth-child(3) a{
+    text-decoration: none;
+    position: relative;
+    left:20%;
+    top:5px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgb(75, 68, 68);
+}
+@media only screen and (min-width:350px){
+    .layout-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-around;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+	
