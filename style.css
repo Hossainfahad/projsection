@@ -59,8 +59,8 @@ body{
    
 }
 .project div:nth-child(3):hover{
-     background: aquamarine;
-     border-color: aquamarine;
+     background: #ff5952;
+     border-color: #ff5952;
      border-radius: 15px;
 }
 .project div:nth-child(3) a{
