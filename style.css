@@ -59,9 +59,9 @@ body{
    
 }
 .project div:nth-child(3):hover{
-     background: #ff5952;
-     border-color: #ff5952;
-     border-radius: 15px;
+     background: #6592fe;
+     border-color: #6592fe;
+     border-radius: 10px;
 }
 .project div:nth-child(3) a{
     text-decoration: none;
